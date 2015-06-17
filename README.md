@@ -1,3 +1,4 @@
 # msjohncox.github.io
 Boise Code Works
-stuff
+Woot! Getting started is fun
+

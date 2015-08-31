@@ -29,7 +29,17 @@ video {
 
 	body {
 		line-height: 1;
+        	font-size: 1em;
+	color: #000000;
+	text-shadow: 0px 0px .2px #000;
 	}
+
+.img-responsive {
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+}
+    
 
 	ol, ul {
 		list-style: none;
@@ -1557,7 +1567,10 @@ video {
 /* Basic */
 
 	body {
-		background: #fff;
+        background-color: beige;
+        /*background-image: url("../images/Web_dev_background2.jpg");*/
+        background-repeat: repeat;
+        background-opacity: 0.4;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1572,11 +1585,12 @@ video {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #black;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
-		font-weight: 400;
+		font-weight: 500;
 		line-height: 1.75em;
+        background-image: url("../images/webdevbkgnd.jpg");
 	}
 
 	a {
@@ -2055,7 +2069,7 @@ video {
 		}
 
 		.image.left {
-			float: left;
+			floatnd: left;
 			margin: 0 1.5em 1em 0;
 			top: 0.25em;
 		}
